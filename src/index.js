@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
 import 'tachyons'
-import CardList from './components/CardList'
 import './index.css'
 
 
 ReactDOM.render(
   <>
-    <CardList/>
+    <App/>
   </>
   ,
   document.getElementById('root')
